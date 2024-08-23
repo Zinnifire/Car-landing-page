@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Header{
+  background-color: brown;
+    height: 95px;
+    padding-top: 15px;
+    
+}
+    
+
+
+.Logo{
+  display: flex;
+  align-items: center;
+   font-style: oblique;
+    color: rgb(130, 196, 16);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h1{
+    margin-left: 20px;
+  padding-top: 10px;
+   font-size: xx-large;
+   font-weight: bolder;
+  
+}
+.Writeup{
+    color: rgb(145, 64, 64);
+    padding-top: 195px;
+    padding-left: 20px;
+}
+.Login{
+    padding-left: 540px;
+    padding-top: 130px;
+}
+p{
+    font-size: 15px;
+    padding-left: 30px;
+    color: rgb(19, 19, 18);
+}
+h4{
+    color: rgb(94, 216, 247);
+
+}
+.list{
+
+  font-size: 18px; 
+}
+a{
+    color: #f1f1f1;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+h6{
+    color: rgb(229, 219, 219);
+    font-size: 15px;
+}
+.Index{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1100px;
+   
+}
+.reg{
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.Registration{
+    padding-top:130px ;
+    padding-left: 550px;
+    color: rgb(202, 230, 76);
+  
+}
+h2{
+  font-size: 55px;
+}
+h3{
+    color: rgb(245, 37, 10);
+    font-size: 30px;
+    padding-top: 160px;
+    padding-left:350px
+}
+ul {
+ 
+    list-style-type: none;
+    margin: 0;
+    padding:-90px ;
+    overflow: hidden;
+   padding-left: 800px;
+  }
+  
+  li {
+    
+    float: left;
+    
+  }
+  span{
+    color: orange;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .input{
+    margin-left: 19px;
+  }
+  .input2{
+    margin-left: 22px;
+
+  }
+  .FP{
+    margin-left: 43px;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  body{
+    height: 800px;
+    background:linear-gradient(to right,rgb(18, 18, 18),rgb(55, 55, 131));
+    background-image: url(car_reviews_landing_S_3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  input[type="submit"]{
+   background-color: orange;
+   width: 245px;
+   height: 55px;
+   border-radius: 20px;
+   color: #f1f1f1;
+   margin-right: 90px;
+  
+  
+  }
+  input[type="submit"]:hover{
+    background-color: rgb(218, 211, 211);
+  }
+  input[type="text"]{
+    height: 30px;
+    width: 200px;
+    margin-right:20px;
+  }
